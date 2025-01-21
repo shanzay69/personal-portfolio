@@ -1,0 +1,43 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+.footer {
+  padding: 1rem 0;
+  text-align: center;
+  background-color: #6a0dad;
+  color: #fff;
+  font-size: 1.2rem;
+  width: 100%;
+  box-sizing: border-box;
+  flex-shrink: 0;
+}
+
+.footer p {
+  margin: 0;
+}
+
+
+body {
+  overflow-x: hidden;
+}
+
+
+@media (max-width: 767px) {
+  .footer {
+    font-size: 1rem;
+    padding: 1rem 0;
+  }
+}
+
+@media (min-width: 768px) {
+  .footer {
+    font-size: 1.2rem;
+    padding: 2rem 0;
+  }
+}

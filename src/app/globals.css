@@ -1,0 +1,15 @@
+@layer base{
+  body  {
+      color: #fff;
+      background-color: #000;
+
+  }
+}
+@layer Components{
+  .menulink  {
+      
+        
+      @apply cursor-pointer hover:text-[#f6ee0e];
+
+  }
+}
