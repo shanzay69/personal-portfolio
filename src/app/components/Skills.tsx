@@ -1,5 +1,5 @@
 'use client';
-import React from "react";
+import React from "react"
 import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaNodeJs } from "react-icons/fa";
 import { SiTailwindcss, SiTypescript, SiNextdotjs } from "react-icons/si";
 import { VscVscode } from "react-icons/vsc";

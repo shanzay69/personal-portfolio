@@ -25,6 +25,9 @@ export default function Navbar() {
             <a href="#skills">Skills</a>
           </li>
           <li>
+            <a href="#project">Project</a>
+          </li>
+          <li>
             <a href="#about">About</a>
           </li>
           <li>
@@ -42,6 +45,9 @@ export default function Navbar() {
           </li>
           <li>
             <a href="#skills" onClick={toggleMenu}>Skills</a>
+          </li>
+          <li>
+            <a href="#project" onClick={toggleMenu}>Project</a>
           </li>
           <li>
             <a href="#about" onClick={toggleMenu}>About</a>

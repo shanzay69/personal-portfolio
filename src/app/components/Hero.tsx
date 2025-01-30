@@ -1,3 +1,4 @@
+import React from "react"
 import Navbar from "./Navbar";
 import '../style/hero.css';
 export default function Hero() {

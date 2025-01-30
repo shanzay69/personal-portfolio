@@ -1,0 +1,104 @@
+.project {
+    text-align: center;
+    margin: 90px 0;
+  }
+  
+  .section-heading {
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: #ffd700;
+    margin-bottom: 80px;
+  }
+  
+  .section-heading:hover {
+    color: aqua;
+  }
+  
+  .project-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 9px;
+    padding: 0 20px;
+  }
+  
+  .project-card {
+    background-color: rgb(53, 66, 78);
+    border-radius: 9px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, border-radius 0.4s ease;
+    box-shadow: 0 0 1rem #f5f9fa, 0 0 2rem rgb(39, 193, 240);
+    width: 100%; 
+    max-width: 377px; 
+    margin: 0 auto;
+  }
+  
+  .project-card:hover {
+    transform: scale(1.05) rotate(360deg);
+    border-radius: 50%;
+  }
+  
+  .card-content {
+    position: relative;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .card-image {
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    transition: opacity 0.3s ease;
+  }
+  
+  .project-card:nth-child(1) .card-image {
+    background-image: url('/furniro-website.png');
+    border-radius: 9px;
+    opacity: 0.7;
+  }
+  
+  .project-card:nth-child(2) .card-image {
+    background-image: url('/pizzawebsite.png');
+    border-radius: 9px;
+    opacity: 0.7;
+  }
+  
+  .project-card:nth-child(3) .card-image {
+    background-image: url('/blogwebsite.jpeg');
+    border-radius: 9px;
+    opacity: 0.7;
+  }
+  
+  h3 {
+    margin-top: 20px;
+    font-size: 1.3rem;
+    color: black;
+  }
+  
+  h4 {
+    margin-top: 10px;
+    font-size: 1rem;
+    color: #1c8a41;
+  }
+  
+  
+  @media screen and (max-width: 768px) {
+    .project-grid {
+      grid-template-columns: repeat(2, 1fr); 
+    }
+  
+    .project-card {
+      max-width: 90%; 
+    }
+  }
+  
+  
+  @media screen and (max-width: 480px) {
+    .project-grid {
+      grid-template-columns: 1fr; 
+    }
+  
+    .project-card {
+      max-width: 100%; 
+    }
+  }
+  

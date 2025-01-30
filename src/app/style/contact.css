@@ -43,6 +43,9 @@
     text-align: left;
     height: 480px;
     margin-bottom: 30px;
+    box-shadow: 0 0 1rem #4793a7,
+    0 0 2rem rgb(39, 193, 240);
+
 }
 
 .contact-form h3 {
@@ -54,6 +57,7 @@
     font-size: 1rem;
     margin-bottom: 1.5rem;
     color: #aaa;
+    
 }
 
 .form-input, .form-textarea {
@@ -70,6 +74,8 @@
 
 .form-input:focus, .form-textarea:focus {
     border-color: #6200ea; 
+    box-shadow: 0 0 1rem #4793a7,
+    0 0 2rem rgb(39, 193, 240);
 }
 
 .form-textarea {
@@ -92,7 +98,9 @@
 }
 
 .form-submit:hover {
-    background-color: #64468f;
+    box-shadow: 0 0 1rem #4793a7,
+    0 0 2rem rgb(39, 193, 240);
+
 }
 .form-note {
     font-size: 0.9rem;

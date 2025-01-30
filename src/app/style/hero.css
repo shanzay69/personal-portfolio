@@ -23,14 +23,19 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 30px; 
+  gap: 40px; 
   margin-top: 100px;
   text-align: center;
-  margin-right: 20px; 
+  margin-left: 40px; 
 }
 
 .hero-image {
   border-radius: 50%;
+  box-shadow: 0 0 2rem  #fff,
+  inset 0 0 1rem #fff,
+  0 0 2rem rgb(39, 193, 240),
+  inset 0 0 2rem #38ff53,
+  0 0 4rem rgb(27, 180, 207);
   overflow: hidden;
   width: 250px;
   height: 250px;
@@ -46,6 +51,9 @@
   margin: 0;
   font-size: 50px;
   font-weight: bold; 
+  margin-left: 50px;
+ 
+
 }
 
 @media screen and (min-width: 768px) {
@@ -64,8 +72,11 @@
 
 
 .hero-text p:hover {
-  color: yellow;
-}
+  text-shadow:0 0 1rem #4793a7,
+  0 0 2rem rgb(39, 193, 240);
+} 
+
+
 @media screen and (min-width: 768px) {
   .hero-content {
     flex-direction: column; 
